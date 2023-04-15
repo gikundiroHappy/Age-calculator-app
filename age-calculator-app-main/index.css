@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(230, 228, 228);
+}
+.attribution {
+  font-size: 15px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+.content {
+  display: flex;
+  gap: 20px;
+}
+.content p {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
+}
+.content input {
+  padding: 10px;
+  color: gray;
+  font-weight: bold;
+  font-size: 18px;
+  width: 100px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.low p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.low p span {
+  color: purple;
+}
+button {
+  margin: 20px 0px 10px 330px;
+  padding: 10px;
+  background-color: rgb(201, 4, 201);
+  border-radius: 50%;
+  border: none;
+  font-size: 20px;
+  height: 40px;
+  text-align: center;
+}
+.container {
+  background-color: white;
+  width: 500px;
+  padding: 60px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 130px;
+  border-radius: 2px 2px 130px 2px;
+}
+#error1 {
+  font-size: 9px;
+  color: red;
+  margin-top: 10px;
+  font-style: italic;
+}
+#error2 {
+  font-size: 9px;
+  color: red;
+  margin-top: 10px;
+  font-style: italic;
+}
+#error3 {
+  font-size: 9px;
+  color: red;
+  margin-top: 10px;
+  font-style: italic;
+}
